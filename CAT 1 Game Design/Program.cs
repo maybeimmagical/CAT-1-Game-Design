@@ -166,10 +166,14 @@ using System;namespace testingforcat{    class Program    {        static void M
             Console.WriteLine("You win");
             Console.ReadKey(true);
             Console.WriteLine("You get turned into a whale.");
-        }        public static void option1b2()
+        } 
+                                                           
+         public static void option1b2()
         {
 
-        }        public static void gameEnd()        {
+        }        
+          public static void gameEnd()        
+         {
             string playAgain;
             Console.WriteLine("play again?");
             playAgain = Console.ReadLine().ToLower();
