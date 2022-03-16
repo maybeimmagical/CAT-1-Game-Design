@@ -155,7 +155,7 @@ namespace testingforcat
                 case "spit them out":
                    
                 {
-                       
+                       option1b1();
                         break;
                 }
                 case "2":
@@ -212,6 +212,7 @@ namespace testingforcat
                                                             Console.WriteLine("Congrats, that was a test. You have truly won a life of peace and prosperity.");
                                                             Console.Readkey(true);
                                                             Console.WriteLine("Lastly, don't eat strange berries. I'm sure you are already aware of the consequences.");
+                                                            gameEnd();
                                                 }
                                                 
                                                 case "N":
@@ -220,6 +221,7 @@ namespace testingforcat
                                                             Console.WriteLine("You have failed, who doesn't want to be a whale?");
                                                             Console.Readkey(true);
                                                             Console.WriteLine("You live a life of sadness and regret, constantly thinking of swimming and freedom");
+                                                            gameEnd();
                                                 }
                                     }
         }        
